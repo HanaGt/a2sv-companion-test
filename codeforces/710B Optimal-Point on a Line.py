@@ -1,1 +1,1 @@
-bg-blue-s
+https://codeforces.com/contest/710/my
