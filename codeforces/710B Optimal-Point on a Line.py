@@ -1,1 +1,1 @@
-https://codeforces.com/contest/*/my
+https://codeforces.com/submissions/Hana-Guta
