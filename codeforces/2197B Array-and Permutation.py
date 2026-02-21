@@ -24,7 +24,8 @@ def solve():
             for i in range(1, n):
                 if a[i] != a[i-1]:
                     s.append(a[i])
-    
+        
+        # 2. Check if s is a subsequence of p
         p_ptr = 0
         s_ptr = 0
         while p_ptr < n and s_ptr < len(s):
