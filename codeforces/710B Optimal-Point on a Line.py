@@ -1,3 +1,5 @@
+import sys
+
 def solve():
     # Reading input efficiently
     input_data = sys.stdin.read().split()
@@ -10,6 +12,6 @@ def solve():
     
     # The leftmost median is always at index (n-1) // 2
     print(x[(n - 1) // 2])
- 
+
 if __name__ == "__main__":
     solve()
