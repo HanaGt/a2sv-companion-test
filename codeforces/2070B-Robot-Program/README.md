@@ -37,18 +37,18 @@ For each test case, print a single integer — the number of times the robot wil
 
 ```
 6
- class="test-example-line test-example-line-odd test-example-line-1">3 2 6
- class="test-example-line test-example-line-odd test-example-line-1">LLR
- class="test-example-line test-example-line-even test-example-line-2">2 -1 8
- class="test-example-line test-example-line-even test-example-line-2">RL
- class="test-example-line test-example-line-odd test-example-line-3">4 -2 5
- class="test-example-line test-example-line-odd test-example-line-3">LRRR
- class="test-example-line test-example-line-even test-example-line-4">5 3 7
- class="test-example-line test-example-line-even test-example-line-4">LRRLL
- class="test-example-line test-example-line-odd test-example-line-5">1 1 1
- class="test-example-line test-example-line-odd test-example-line-5">L
- class="test-example-line test-example-line-even test-example-line-6">3 -1 4846549234412827
- class="test-example-line test-example-line-even test-example-line-6">RLR
+3 2 6
+LLR
+2 -1 8
+RL
+4 -2 5
+LRRR
+5 3 7
+LRRLL
+1 1 1
+L
+3 -1 4846549234412827
+RLR
 ```
 
 **Output**
