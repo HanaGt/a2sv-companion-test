@@ -40,8 +40,8 @@ Example 3:
 
 **Constraints:**
 
-- n == nums.length
+- `n == nums.length`
 
-- 1
+- `1
 
 **Follow up:** Could you implement a solution using only `O(1)` extra space complexity and `O(n)` runtime complexity?
