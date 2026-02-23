@@ -8,30 +8,30 @@
 
 ---
 
-There is a robot on the coordinate line. Initially, the robot is located at the point $$$x$$$ ($$$x \ne 0$$$). The robot has a sequence of commands of length $$$n$$$ consisting of characters, where L represents a move to the left by one unit (from point $$$p$$$ to point $$$(p-1)$$$) and R represents a move to the right by one unit (from point $$$p$$$ to point $$$(p+1)$$$).
+There is a robot on the coordinate line. Initially, the robot is located at the point x (x ≠ 0). The robot has a sequence of commands of length n consisting of characters, where L represents a move to the left by one unit (from point p to point (p-1)) and R represents a move to the right by one unit (from point p to point (p+1)).
 
-The robot starts executing this sequence of commands (one command per second, in the order they are presented). However, whenever the robot reaches the point $$$0$$$, the counter of executed commands is reset (i. e. it starts executing the entire sequence of commands from the very beginning). If the robot has completed all commands and is not at $$$0$$$, it stops.
+The robot starts executing this sequence of commands (one command per second, in the order they are presented). However, whenever the robot reaches the point 0, the counter of executed commands is reset (i. e. it starts executing the entire sequence of commands from the very beginning). If the robot has completed all commands and is not at 0, it stops.
 
-Your task is to calculate how many times the robot will enter the point $$$0$$$ during the next $$$k$$$ seconds.
+Your task is to calculate how many times the robot will enter the point 0 during the next k seconds.
 
-InputThe first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.
+InputThe first line contains a single integer t (1 ≤ t ≤ 10^4) — the number of test cases.
 
-The first line of a test case contains three integers $$$n$$$, $$$x$$$ and $$$k$$$ ($$$1 \le n \le 2 \cdot 10^5$$$; $$$-n \le x \le n$$$; $$$n \le k \le 10^{18}$$$).
+The first line of a test case contains three integers n, x and k (1 ≤ n ≤ 2 · 10^5; -n ≤ x ≤ n; n ≤ k ≤ 10^{18}).
 
-The second line of a test case contains a string $$$s$$$ consisting of $$$n$$$ characters L and/or R.
+The second line of a test case contains a string s consisting of n characters L and/or R.
 
-Additional constraint on the input: the sum of $$$n$$$ over all test cases doesn't exceed $$$2 \cdot 10^5$$$.
+Additional constraint on the input: the sum of n over all test cases doesn't exceed 2 · 10^5.
 
-OutputFor each test case, print a single integer — the number of times the robot will enter the point $$$0$$$ during the next $$$k$$$ seconds.
+OutputFor each test case, print a single integer — the number of times the robot will enter the point 0 during the next k seconds.
 
-Example
+**input**
 
-Input
 ```
 63 2 6LLR2 -1 8RL4 -2 5LRRR5 3 7LRRLL1 1 1L3 -1 4846549234412827RLR
 ```
 
-Output
+**output**
+
 ```
 1
 4
@@ -41,10 +41,12 @@ Output
 2423274617206414
 ```
 
-NoteIn the first example, the robot moves as follows: $$$2 \rightarrow 1 \rightarrow \underline{0} \rightarrow -1 \rightarrow -2 \rightarrow -1$$$. The robot has completed all instructions from the sequence and is not at $$$0$$$. So it stops after $$$5$$$ seconds and the point $$$0$$$ is entered once.
 
-In the second example, the robot moves as follows: $$$-1 \rightarrow \underline{0} \rightarrow 1 \rightarrow \underline{0} \rightarrow 1 \rightarrow \underline{0} \rightarrow 1 \rightarrow \underline{0} \rightarrow 1$$$. The robot worked $$$8$$$ seconds and the point $$$0$$$ is entered $$$4$$$ times.
 
-In the third example, the robot moves as follows: $$$-2 \rightarrow -3 \rightarrow -2 \rightarrow -1 \rightarrow \underline{0} \rightarrow -1$$$. The robot worked $$$5$$$ seconds and the point $$$0$$$ is entered once. 
+NoteIn the first example, the robot moves as follows: 2 → 1 → \underline{0} → -1 → -2 → -1. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds and the point 0 is entered once.
 
-In the fourth example, the robot moves as follows: $$$3 \rightarrow 2 \rightarrow 3 \rightarrow 4 \rightarrow 3 \rightarrow 2$$$. The robot has completed all instructions from the sequence and is not at $$$0$$$. So it stops after $$$5$$$ seconds, without reaching the point $$$0$$$.
+In the second example, the robot moves as follows: -1 → \underline{0} → 1 → \underline{0} → 1 → \underline{0} → 1 → \underline{0} → 1. The robot worked 8 seconds and the point 0 is entered 4 times.
+
+In the third example, the robot moves as follows: -2 → -3 → -2 → -1 → \underline{0} → -1. The robot worked 5 seconds and the point 0 is entered once. 
+
+In the fourth example, the robot moves as follows: 3 → 2 → 3 → 4 → 3 → 2. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds, without reaching the point 0.
