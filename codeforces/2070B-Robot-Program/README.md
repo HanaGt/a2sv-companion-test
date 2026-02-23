@@ -30,7 +30,8 @@ Additional constraint on the input: the sum of n over all test cases doesn't exc
 
 For each test case, print a single integer — the number of times the robot will enter the point 0 during the next k seconds.
 
-Example
+
+**Example**
 
 **Input**
 
