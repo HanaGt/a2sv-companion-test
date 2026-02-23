@@ -14,24 +14,24 @@ The robot starts executing this sequence of commands (one command per second, in
 
 Your task is to calculate how many times the robot will enter the point 0 during the next k seconds.
 
-InputThe first line contains a single integer t (1 ≤ t ≤ 10^4) — the number of test cases.
+InputThe first line contains a single integer t (1 ≤ t ≤ 10⁴) — the number of test cases.
 
-The first line of a test case contains three integers n, x and k (1 ≤ n ≤ 2 · 10^5; -n ≤ x ≤ n; n ≤ k ≤ 10^{18}).
+The first line of a test case contains three integers n, x and k (1 ≤ n ≤ 2 ⋅ 10⁵; -n ≤ x ≤ n; n ≤ k ≤ 10^{18}).
 
 The second line of a test case contains a string s consisting of n characters L and/or R.
 
-Additional constraint on the input: the sum of n over all test cases doesn't exceed 2 · 10^5.
+Additional constraint on the input: the sum of n over all test cases doesn't exceed 2 ⋅ 10⁵.
 
 OutputFor each test case, print a single integer — the number of times the robot will enter the point 0 during the next k seconds.
 
-**input**
+Example
 
+**Input**
 ```
 63 2 6LLR2 -1 8RL4 -2 5LRRR5 3 7LRRLL1 1 1L3 -1 4846549234412827RLR
 ```
 
-**output**
-
+**Output**
 ```
 1
 4
@@ -40,8 +40,6 @@ OutputFor each test case, print a single integer — the number of times the rob
 1
 2423274617206414
 ```
-
-
 
 NoteIn the first example, the robot moves as follows: 2 → 1 → \underline{0} → -1 → -2 → -1. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds and the point 0 is entered once.
 
