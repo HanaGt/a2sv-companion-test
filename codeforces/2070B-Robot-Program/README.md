@@ -14,7 +14,10 @@ The robot starts executing this sequence of commands (one command per second, in
 
 Your task is to calculate how many times the robot will enter the point 0 during the next k seconds.
 
-InputThe first line contains a single integer t (1 ≤ t ≤ 10⁴) — the number of test cases.
+
+**Input**
+
+The first line contains a single integer t (1 ≤ t ≤ 10⁴) — the number of test cases.
 
 The first line of a test case contains three integers n, x and k (1 ≤ n ≤ 2 ⋅ 10⁵; -n ≤ x ≤ n; n ≤ k ≤ 10^{18}).
 
@@ -22,16 +25,21 @@ The second line of a test case contains a string s consisting of n characters L 
 
 Additional constraint on the input: the sum of n over all test cases doesn't exceed 2 ⋅ 10⁵.
 
-OutputFor each test case, print a single integer — the number of times the robot will enter the point 0 during the next k seconds.
+
+**Output**
+
+For each test case, print a single integer — the number of times the robot will enter the point 0 during the next k seconds.
 
 Example
 
 **Input**
+
 ```
 63 2 6LLR2 -1 8RL4 -2 5LRRR5 3 7LRRLL1 1 1L3 -1 4846549234412827RLR
 ```
 
 **Output**
+
 ```
 1
 4
@@ -41,7 +49,10 @@ Example
 2423274617206414
 ```
 
-NoteIn the first example, the robot moves as follows: 2 → 1 → \underline{0} → -1 → -2 → -1. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds and the point 0 is entered once.
+
+**Note**
+
+In the first example, the robot moves as follows: 2 → 1 → \underline{0} → -1 → -2 → -1. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds and the point 0 is entered once.
 
 In the second example, the robot moves as follows: -1 → \underline{0} → 1 → \underline{0} → 1 → \underline{0} → 1 → \underline{0} → 1. The robot worked 8 seconds and the point 0 is entered 4 times.
 
