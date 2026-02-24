@@ -1,6 +1,6 @@
 # 2070B Robot Program
 
-**Problem:** [2070B Robot Program](https://codeforces.com/contest/2070/problem/B)
+**Problem:** [2070B Robot Program](https://codeforces.com/problemset/problem/2070/B)
 
 **time limit per test:** 2 seconds
 
@@ -65,10 +65,10 @@ RLR
 
 **Note**
 
-In the first example, the robot moves as follows: 2 → 1 → \underline{0} → -1 → -2 → -1. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds and the point 0 is entered once.
+In the first example, the robot moves as follows: 2 → 1 → 0 → -1 → -2 → -1. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds and the point 0 is entered once.
 
-In the second example, the robot moves as follows: -1 → \underline{0} → 1 → \underline{0} → 1 → \underline{0} → 1 → \underline{0} → 1. The robot worked 8 seconds and the point 0 is entered 4 times.
+In the second example, the robot moves as follows: -1 → 0 → 1 → 0 → 1 → 0 → 1 → 0 → 1. The robot worked 8 seconds and the point 0 is entered 4 times.
 
-In the third example, the robot moves as follows: -2 → -3 → -2 → -1 → \underline{0} → -1. The robot worked 5 seconds and the point 0 is entered once. 
+In the third example, the robot moves as follows: -2 → -3 → -2 → -1 → 0 → -1. The robot worked 5 seconds and the point 0 is entered once. 
 
 In the fourth example, the robot moves as follows: 3 → 2 → 3 → 4 → 3 → 2. The robot has completed all instructions from the sequence and is not at 0. So it stops after 5 seconds, without reaching the point 0.
