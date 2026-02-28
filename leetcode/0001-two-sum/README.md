@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy
 
-**Problem:** [Two Sum](https://leetcode.com/problems/two-sum)
+**Problem:** [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 ---
 
