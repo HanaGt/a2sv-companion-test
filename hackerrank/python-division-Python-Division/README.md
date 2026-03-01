@@ -24,3 +24,63 @@ Print:
 0
 0.6
 ```
+
+**Input Format**
+
+The first line contains the first integer, . The second line contains the second integer, .
+
+**Output Format**
+
+Print the two lines as described above.
+
+**Sample Input 0**
+
+```
+4
+3
+```
+
+**Sample Output 0**
+
+```
+1
+1.33333333333
+```
+
+Author
+
+ shashank21j
+
+Difficulty
+
+Easy
+
+Max Score
+
+10
+
+Submitted By
+
+ 2859701
+
+## Need Help?
+
+    View tutorial
+
+    View discussions
+
+    View editorial
+
+    View top submissions
+
+rate this challenge
+
+MORE DETAILS
+
+    Download problem statement
+
+    Download sample test cases
+
+    Suggest Edits
+
+  Share on Facebook        Share on Twitter        Share on LinkedIn
