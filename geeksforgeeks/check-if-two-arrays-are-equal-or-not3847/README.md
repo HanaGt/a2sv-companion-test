@@ -1,3 +1,3 @@
-# checkiftwoarraysareequalornot3847
+# check-if-two-arrays-are-equal-or-not3847
 
-**Problem:** [checkiftwoarraysareequalornot3847](https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1)
+**Problem:** [check-if-two-arrays-are-equal-or-not3847](https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1)
