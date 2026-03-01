@@ -39,3 +39,22 @@ Remove all arrays that sum to to leave only the valid permutations.
 ```
 [[0, 0, 0], [0, 0, 1], [0, 1, 0], [0, 1, 2], [0, 2, 1], [0, 2, 2], [1, 0, 0], [1, 0, 2], [1, 1, 1], [1, 1, 2], [1, 2, 0], [1, 2, 1], [1, 2, 2], [2, 0, 1], [2, 0, 2], [2, 1, 0], [2, 1, 1], [2, 1, 2], [2, 2, 0], [2, 2, 1], [2, 2, 2]]
 ```
+Change Theme
+ Language
+Pypy 3
+ More
+1
+2
+3
+4
+5
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+Line: 5 Col: 21
+Submit Code
+Run Code
+Upload Code as File
+Test against custom input
